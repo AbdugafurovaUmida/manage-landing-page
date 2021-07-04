@@ -1,0 +1,347 @@
+@media(max-width:1199px) {
+    .container{
+       padding: 0px 25px;
+    }
+    .manage-image img{
+        width: 220px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .about{
+        padding: 110px 0px 0px;
+    }
+    .users-info{
+        max-width: 304px;
+        min-height: 250px;
+        margin-bottom: 100px;
+        padding: 0px 10px 15px
+    }
+    .users-profile{
+        padding: 15px 0px 130px;
+    }
+    .users-profile .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .form{
+        display: flex;
+    }
+    .focusin-text{
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:991px){
+    .nav-link{
+        margin: 0 8px;
+    }
+    .header-menu{
+        padding: 40px 0px 80px;
+    }
+    .header-title{
+        margin-top: 0;
+        max-width: 360px;
+        font-size: 3.5rem;
+    }
+    .header-text{
+        max-width: 300px;
+    }
+    .manage-image img{
+        width: 160px ;
+        margin-top: 25px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .btn{
+        padding: 12px 25px 13px;
+    }
+    .about-title{
+        max-width: 360px;
+    }
+    .description{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .users-info{
+        min-width: 350px;
+
+        
+    }
+    .users-profile .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .users-profile .col-3{
+        width: 50%;
+        
+    }
+    .footer .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: top;
+    }
+    .action{
+        text-align: center;
+    }
+    .footer-menu{
+        order: -1;
+        width: 33.3%;
+    }
+    .form{
+        margin-top: 30px;
+    }
+    .footer{
+        padding-bottom: 0;
+    }
+    .footer-logo{
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:767px){
+    :root{
+        font-size: 12px;
+    }
+    .header-btn{
+        display: none;
+    }
+    .nav-link{
+        margin: 0 3px;
+    }
+    .header-menu{
+        padding: 30px 0px;
+    }
+    .manage-image img{
+        margin-top: 0;
+    }
+    .list-item{
+        padding: 0px 10px;
+    }
+    .list-item:before{
+        margin-left: -50px;
+        margin-right: 10px;
+        width: 50px;
+        height: 34px;
+    }
+    .description{
+        margin-left: 0;
+    }
+    .users-profile .col-3{
+        width: 100%;
+    }
+    .users-profile .row{
+        flex-wrap: wrap;
+    }
+    .users-title{
+        font-size: 2.5rem;
+    }
+    .main-footer-title{
+        font-size: 2rem;
+        width: 270px;
+    }
+    .about-title{
+        font-size: 2.5rem;
+        width: 240px;
+    }
+    .about-text{
+        width: 240px;
+    }
+    .footer-btn{
+        padding: 10px 28px 11px; ;
+    }
+    .footer .row{
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .footer-menu{
+        margin-bottom: 50px;
+    }
+    .footer .col-3,.col-4{
+        width: 50%;
+    }
+    
+}
+@media(max-width:565px){
+    body{
+        background-size: 500px;
+    }
+    .menu-toggle{
+        display: block;
+        border: none;
+        background: transparent;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .intro .col-2{
+        width: 100%;
+      
+       text-align: center;
+    }
+    .intro .row{
+       
+        flex-wrap: wrap;
+    }
+    .header-title{
+        margin: 0 auto;
+        max-width: 100%; font-size: 3.8rem;
+    }
+    .header-text{
+        margin: 0 auto;
+        max-width: 100%;
+       
+    }
+    .about .col-2{
+        width: 100%;
+    }
+    .about .row{
+        flex-wrap: wrap;
+    }
+    .about-title{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .list-item{
+        text-align: center;
+    }
+}
+@media (max-width:480px) {
+    body{
+        background-size: 450px,150px;
+        background-position: top -30px right -70px,;
+    }
+    .container{
+        padding: 10;
+    }
+    .intro .col-2{
+        width: 100%;
+        text-align: center;
+    }
+    .intro .row{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .header-title{
+        text-align: center;
+         margin-bottom: 9px;
+    }
+    .header-text{
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 29px;
+       
+    }
+    .btn{
+        text-align: center;
+    }
+    .about  .row{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .about .col-2{
+        width: 100%;
+        padding: 0;
+    }
+    .about-title{
+       width: 100%;
+        text-align: center;
+        
+    }
+    .about-text{
+        width: 100%;
+         text-align: center;
+         margin-bottom: 40px;
+
+     }
+     .ordered-list{
+        text-align: center;
+     }
+     .list-item{
+         text-align: start;
+         position: relative;
+     }
+     .list-item:before{
+         margin: 0;
+         z-index: 1; 
+         
+     }
+     .about-users-profile{
+         background-size: 0 0;
+     }
+     .intro{
+         background-image: url(../img/background-image2.png);
+         background-position: right -100px bottom -20px ;
+         background-repeat: no-repeat;
+         background-size: 250px;
+        
+     }
+     .about-info{
+        position: absolute;
+        padding: 7.5px 0;
+        padding-left: 50px;
+        width: 100%;
+        background: #FFF0EC;
+        font-size: 1.4rem;
+        top: -18px;
+        left: 22px;
+        z-index: -1;
+     }
+     .main-footer .row{
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     
+     .main-footer-title{
+         width: 80%;
+         text-align: center;
+         font-size: 3.6rem;
+         padding: 0 25px;
+    
+     }
+     .button{
+         margin-top: 29px;
+     }
+     .footer .col-3{
+         width: 100%;
+     }
+     .end{
+         order: -3;
+     }
+     .footer{
+         position: relative;
+     }
+     .footer-basic{
+        text-align: center;
+         display: flex;
+         flex-direction: column-reverse;
+     }
+     .copy{
+         position: absolute;
+         bottom: 15px;
+        left: 29%;
+     }
+     .action{
+        margin: 0 auto;
+     }
+     .silk{
+         margin: 0 17px;
+     }
+     .icons{
+         margin-bottom: 54px;
+     }
+     .footer-logo{
+         margin-bottom: 56px;
+     }
+     .footer .row{
+         margin: 0;
+     }
+}
